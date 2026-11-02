@@ -1,0 +1,11 @@
+J1/ J2
+
+J1
+
+ja skripts palaižas bez kļūdām, bet rezūltāts nav tāds, kā gaidīs, tā ir loģiskā kļūda. vispirms ir jāpārbauda, vai ievadītie dati ir precīzi, pēctam jāpārbauda koda lģiskā kļūda , mainīgie, nosacijumi un skili, var izmantot debugging lai solipa solim atrastu kļūdas vietu 
+
+J2
+
+cēlonis var būt nepareizi izvelets CSV faila atdalītājs. excel neatpazist kolonnu atdalītājus un tāpēc visus datus ievieto vienā kolonnā.
+labojums var būt šads, excel jaizmanto funkcija dati/no teksta/CSV, jaizvēlās pareizais atdalītājs komats vai semikols un UTF-8 kodējums 
+

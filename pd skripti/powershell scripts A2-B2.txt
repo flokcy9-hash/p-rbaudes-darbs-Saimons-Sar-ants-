@@ -1,0 +1,16 @@
+A2 uzd
+
+get-service | where-object { $_.status -eq "Running"} | format-table name, status
+
+
+B2 uzd
+
+$apturetie = Get-Service |
+    Where-Object { $_.Status -eq "Stopped" } |
+    Sort-Object Name |
+    Select-Object Name, Status
+	
+$apturetie | export-csv -path "apturetie.csv" -NoTypeInformation -Encoding UTF8
+
+
+	
